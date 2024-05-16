@@ -5,7 +5,8 @@ Main Parking Dashboard: After registration, the administrator is redirected to t
 User Access: Users (parking seekers) access the smart parking system website without the need for authentication. They land on the homepage or parking search page, where they can view a list of available parking slots. Users can search for parking slots based on location, availability, or other criteria. Upon selecting a parking slot, users can view detailed information such as parking name, number, and real-time availability status. 
 Real-time Updates: As the administrator changes the availability status of parking slots from the dashboard, these updates are reflected in real-time on the user interface. Users can see the current availability status of parking slots without the need for refreshing the page. This workflow ensures a seamless experience for both administrators and users, facilitating efficient parking management and accessibility.
 
-TECHNOLOGY USED IN SMART PARKING : 
+**TECHNOLOGY USED IN SMART PARKING : **
+
 MongoDB: MongoDB remains the same in the MERN stack. It's a NoSQL database that stores data in a flexible, JSON-like format called BSON. MongoDB is known for its scalability, high performance, and flexibility, making it suitable for various types of applications.
 
 Express.js: Express.js is also a part of the MERN stack. It's a minimalist web application framework for Node.js that provides a robust set of features for building web and mobile applications. Express.js simplifies the process of building APIs and handling HTTP requests and responses on the server-side.
