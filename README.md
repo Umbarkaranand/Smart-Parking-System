@@ -17,4 +17,5 @@ Node.js: Node.js remains the same in the MERN stack as well. It's a JavaScript r
 
 **OUTPUT**
 
+![smartparking1](https://github.com/Umbarkaranand/Smart-Parking-System/assets/142328399/0a9583d4-2d0a-4045-8165-d44823fff56e)
 
