@@ -32,8 +32,12 @@ export const Resgistration = () => {
     console.log(json);
 
     if (!json.success) {
-      alert("Enter valid credentials ");
+    if (json.message === "Email already exists") {
+      alert("This email is already registered. Please use a different email.");
+    } else {
+      alert("Enter valid credentials");
     }
+  }
 
     if (json.success) {
       navigate("/signin");
