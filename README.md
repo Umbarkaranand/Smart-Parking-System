@@ -1,4 +1,4 @@
-** Smart Parking Management **
+__Smart Parking Management__
 
 INTRODUCTION:
 As urbanization continues to surge and city traffic becomes increasingly congested, finding parking in urban areas has become a major challenge, exacerbated by the post-COVID surge in road traffic. Public transportation may not always be accessible to everyone, and parking personal vehicles can be both difficult and expensive. Consequently, the demand for a web-based smart parking system has become more urgent, aiming to alleviate traffic congestion and provide predictability in parking availability.
@@ -25,7 +25,7 @@ The biggest issue right now is that there are more cars on the road compared to 
 5. Insufficient parking space utilization
 People frequently lack patience or are unaware of parking slot availability. They tend to park improperly due to the rush. Occasionally, they may not leave enough room for other vehicles to park. These lead to traffic blockages.
 
-WORKING FLOW OF SMART PARKING SYSTEM : 
+**WORKING FLOW OF SMART PARKING SYSTEM :**
 Our Smart Parking System is administered by an administrator and accessible to users through a web application from any location. This system allows users to remotely check parking availability in real-time. It enhances convenience by eliminating the need for physical presence at parking facilities and provides users with up-to-date information to make informed decisions. Additionally, the system likely features a user-friendly interface for easy navigation and accessibility. Overall, it offers a convenient and efficient solution for managing parking spaces effectively.
 Administrator Signup: The administrator visits the smart parking system website. They navigate to the signup page and fill in their details such as username, email, and password. After submitting the signup form, the system verifies the information and creates a new administrator account. Administrator Login: Upon successful signup, the administrator proceeds to the login page. They enter their username and password to authenticate their identity. If the credentials are correct, the system grants access to the administrator dashboard. 
 
