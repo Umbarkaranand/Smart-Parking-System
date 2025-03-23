@@ -10,8 +10,9 @@ export const ParkingSlots = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        let response = await fetch("http://localhost:5000/api/displaydata", {
-          method: "POST",
+        const API_URL = import.meta.env.VITE_BACKEND_URL;
+        let response = await fetch(`${API_URL}/api/displaydata`, {
+          method: "GET",
           headers: {
             "Content-Type": "application/json",
           },

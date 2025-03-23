@@ -18,8 +18,8 @@ export const ParkingRegistration = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const response = await fetch("http://localhost:5000/api/createparking", {
+    const API_URL = import.meta.env.VITE_BACKEND_URL;
+    const response = await fetch(`${API_URL}/api/createparking`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

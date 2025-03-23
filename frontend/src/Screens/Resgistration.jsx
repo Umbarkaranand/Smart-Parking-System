@@ -17,7 +17,8 @@ export const Resgistration = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/api/register", {
+    const API_URL = import.meta.env.VITE_BACKEND_URL;
+    let response = await fetch(`${API_URL}/api/register`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
